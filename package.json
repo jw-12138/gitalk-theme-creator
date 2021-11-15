@@ -1,0 +1,29 @@
+{
+  "name": "gitalk-theme-creator",
+  "version": "1.0.0",
+  "description": "This is an un-official theme creator for gitalk.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx concurrently npm:watch-*",
+    "watch-css": "npx sass src/css:dist/css -w",
+    "watch-js": "npx babel --verbose src/js -w -d dist/js -s --no-comments --skip-initial-build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jw-12138/gitalk-theme-creator.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jw-12138/gitalk-theme-creator/issues"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "concurrently": "^6.4.0",
+    "sass": "^1.43.4"
+  },
+  "homepage": "https://github.com/jw-12138/gitalk-theme-creator#readme"
+}

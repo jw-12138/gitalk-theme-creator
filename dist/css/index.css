@@ -1,0 +1,83 @@
+html {
+  font-family: monospace, Arial;
+}
+
+#app {
+  width: 800px;
+  margin: 0 auto;
+}
+
+h3 {
+  margin-top: 40px;
+}
+
+hr {
+  height: 4px;
+  background-color: #eee;
+  margin: 30px auto;
+  border-radius: 4px;
+  border: none;
+}
+
+pre {
+  overflow-x: auto;
+  overflow-y: auto;
+  max-height: 300px;
+  border: 1px solid #eee;
+  background-color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.gtc-btn {
+  padding: 7px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background-color: #eee;
+  color: #555;
+  cursor: pointer;
+}
+.gtc-btn.kinda-blue {
+  border-color: #8e9db1;
+  background-color: #a0b0c0;
+  color: #fff;
+}
+.gtc-btn.somewhat-purple {
+  background-color: #b2aadf;
+  border-color: #c8bff2;
+  color: #fff;
+}
+.gtc-btn.really-black {
+  background-color: #121212;
+  border-color: #333;
+  color: #e3d45d;
+}
+
+section.preview {
+  display: none;
+}
+section.preview.on {
+  display: block;
+}
+
+.color-block {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.color-block .label {
+  margin-right: 10px;
+  font-size: 14px;
+}
+.color-block .el-slider {
+  margin-left: 10px;
+  width: 200px;
+}
+
+footer {
+  margin: 40px auto;
+}
+
+/*# sourceMappingURL=index.css.map */
